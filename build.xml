@@ -29,6 +29,23 @@
     	</classpath>
     </javac>
   </target>
+	
+	<target name="junit" depends="compile">
+
+	    <junit printsummary="yes" haltonfailure="no">
+
+			
+		<!-- test class -->
+		<classpath location="${src.dir}" />
+			
+		<test name="com.mkyong.test.TestMessage" 
+			haltonfailure="no" todir="${docs.dir}">
+			<formatter type="plain" />
+			<formatter type="xml" />
+		</test>
+			
+	  </junit>
+	</target>
 
   <!-- Creates Javadoc -->
   <target name="docs" depends="compile">
