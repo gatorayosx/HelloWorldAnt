@@ -1,5 +1,4 @@
-
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 import org.junit.Test;
 
@@ -8,8 +7,7 @@ public class MyTests {
   @Test
   public void multiplicationOfZeroIntegersShouldReturnZero() {
 
-    // MyClass is tested
-	  MyMath tester = new MyMath();
+	MyMath tester = new MyMath();
 
     // assert statements
     assertEquals("10 x 0 must be 0", 0, tester.multi(10, 0));
