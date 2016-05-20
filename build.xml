@@ -31,19 +31,22 @@
   </target>
 	
 	<target name="junit" depends="compile">
-	  <junit printsummary="yes" haltonfailure="no">
-	
-		<classpath refid="test.path" />
-		<classpath location="${src.dir}" />
-			
-		<formatter type="xml" />
-		<batchtest fork="yes" todir="${src.dir}">
-			<fileset dir="${src.dir}">
-				<include name="src/*Test*.java" />
-			</fileset>
-		</batchtest>
-			
-	  </junit>
+		 <junit printsummary="yes" haltonfailure="no">
+		
+		 	<classpath>
+ 	    	    <path id="org.junit" location="C:\Program Files\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar" /> 
+		 		<pathelement location="src"/>
+		 		<pathelement location="bin"/>
+ 	    	</classpath>
+				
+		 	<test name="Tesssst" haltonfailure="no" outfile="result">
+
+		 	      <formatter type="plain"/>
+		 	      <formatter type="xml"/>
+
+		 	</test>
+				
+		 </junit>
 	</target>
 
   <!-- Creates Javadoc -->
@@ -53,6 +56,9 @@
        <fileset dir="${src.dir}">
                 <include name="**" />
            </fileset>
+    	<classpath>
+    	    <path id="org.junit" location="C:\Program Files\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar" /> 
+    	</classpath>
     </javadoc>
   </target>
 
