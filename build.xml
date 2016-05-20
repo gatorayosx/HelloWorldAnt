@@ -31,18 +31,17 @@
   </target>
 	
 	<target name="junit" depends="compile">
-
-	    <junit printsummary="yes" haltonfailure="no">
-
-			
-		<!-- test class -->
+	  <junit printsummary="yes" haltonfailure="no">
+	
+		<classpath refid="test.path" />
 		<classpath location="${src.dir}" />
 			
-		<test name="com.mkyong.test.TestMessage" 
-			haltonfailure="no" todir="${docs.dir}">
-			<formatter type="plain" />
-			<formatter type="xml" />
-		</test>
+		<formatter type="xml" />
+		<batchtest fork="yes" todir="${src.dir}">
+			<fileset dir="${src.dir}">
+				<include name="src/*Test*.java" />
+			</fileset>
+		</batchtest>
 			
 	  </junit>
 	</target>
