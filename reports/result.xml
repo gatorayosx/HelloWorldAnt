@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="1" failures="0" hostname="PACASTANEDA" name="Tesssst" skipped="0" tests="1" time="0.0" timestamp="2016-05-20T12:23:45">
+<testsuite errors="0" failures="0" hostname="PACASTANEDA" name="MyTests" skipped="0" tests="1" time="0.044" timestamp="2016-05-20T12:34:42">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
@@ -32,7 +32,7 @@
     <property name="user.country" value="ES" />
     <property name="java.home" value="C:\Program Files\Java\jre1.8.0_77" />
     <property name="dist.dir" value="C:\Users\pacastaneda\workspace\HelloWorldAnt\dist" />
-    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="java.vm.info" value="mixed mode" />
     <property name="ant.file" value="C:\Users\pacastaneda\workspace\HelloWorldAnt\build.xml" />
     <property name="os.version" value="6.1" />
     <property name="path.separator" value=";" />
@@ -51,7 +51,7 @@
     <property name="ant.file.Ant-Test" value="C:\Users\pacastaneda\workspace\HelloWorldAnt\build.xml" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner junit -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1463747023770 -Declipse.connect.port=57398 -Declipse.pdebuild.home=/C:/Program Files/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/./ -Declipse.pdebuild.scripts=/C:/Program Files/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/scripts/ -Declipse.pdebuild.templates=/C:/Program Files/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/templates/ -Dant.home=C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\Users\pacastaneda\workspace\HelloWorldAnt\build.xml" />
+    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner junit -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1463747681038 -Declipse.connect.port=57659 -Declipse.pdebuild.home=/C:/Program Files/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/./ -Declipse.pdebuild.scripts=/C:/Program Files/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/scripts/ -Declipse.pdebuild.templates=/C:/Program Files/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/templates/ -Dant.home=C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\Users\pacastaneda\workspace\HelloWorldAnt\build.xml" />
     <property name="java.class.path" value="C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-antlr.jar;C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-bcel.jar;C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-bsf.jar;C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-log4j.jar;C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-oro.jar;C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-regexp.jar;C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-resolver.jar;C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-xalan2.jar;C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-commons-logging.jar;C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-commons-net.jar;C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-jai.jar;C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-javamail.jar;C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-jdepend.jar;C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-jmf.jar;C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-jsch.jar;C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar;C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-netrexx.jar;C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-swing.jar;C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-testutil.jar;C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Program Files\eclipse\configuration\org.eclipse.osgi\79\0\.cp\lib\antdebug.jar;C:\Program Files\eclipse\configuration\org.eclipse.osgi\79\0\.cp\lib\remote.jar;C:\Program Files\eclipse\configuration\org.eclipse.osgi\80\0\.cp\lib\remoteAnt.jar;C:\Program Files\Java\jdk1.8.0_77\lib\tools.jar;C:\Program Files\eclipse\plugins\org.eclipse.swt.win32.win32.x86_3.104.2.v20160212-1350.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
@@ -75,14 +75,7 @@
     <property name="src.dir" value="C:\Users\pacastaneda\workspace\HelloWorldAnt\src" />
     <property name="ant.project.invoked-targets" value="junit" />
   </properties>
-  <error message="Tesssst" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: Tesssst
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at java.lang.Class.forName0(Native Method)
-	at java.lang.Class.forName(Unknown Source)
-	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)
-	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:453)
-	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:140)
-</error>
+  <testcase classname="MyTests" name="multiplicationOfZeroIntegersShouldReturnZero" time="0.004" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
