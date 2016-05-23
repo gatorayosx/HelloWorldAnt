@@ -1,0 +1,40 @@
+Buildfile: C:\Users\pacastaneda\workspace\HelloWorldAnt\build.xml
+
+clean:
+   [delete] Deleting directory C:\Users\pacastaneda\workspace\HelloWorldAnt\bin
+   [delete] Deleting directory C:\Users\pacastaneda\workspace\HelloWorldAnt\docs
+   [delete] Deleting directory C:\Users\pacastaneda\workspace\HelloWorldAnt\dist
+
+makedir:
+    [mkdir] Created dir: C:\Users\pacastaneda\workspace\HelloWorldAnt\bin
+    [mkdir] Created dir: C:\Users\pacastaneda\workspace\HelloWorldAnt\docs
+    [mkdir] Created dir: C:\Users\pacastaneda\workspace\HelloWorldAnt\dist
+
+compile:
+    [javac] C:\Users\pacastaneda\workspace\HelloWorldAnt\build.xml:26: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 3 source files to C:\Users\pacastaneda\workspace\HelloWorldAnt\bin
+
+junit2:
+    [junit] Running MyTests
+    [junit] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0,046 sec
+
+clean:
+   [delete] Deleting directory C:\Users\pacastaneda\workspace\HelloWorldAnt\bin
+   [delete] Deleting directory C:\Users\pacastaneda\workspace\HelloWorldAnt\docs
+   [delete] Deleting directory C:\Users\pacastaneda\workspace\HelloWorldAnt\dist
+
+makedir:
+    [mkdir] Created dir: C:\Users\pacastaneda\workspace\HelloWorldAnt\bin
+    [mkdir] Created dir: C:\Users\pacastaneda\workspace\HelloWorldAnt\docs
+    [mkdir] Created dir: C:\Users\pacastaneda\workspace\HelloWorldAnt\dist
+
+compile:
+    [javac] C:\Users\pacastaneda\workspace\HelloWorldAnt\build.xml:26: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 3 source files to C:\Users\pacastaneda\workspace\HelloWorldAnt\bin
+
+junit2:
+    [junit] Running MyTests
+    [junit] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0,006 sec
+
+BUILD SUCCESSFUL
+Total time: 1 second

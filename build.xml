@@ -25,23 +25,20 @@
   <target name="compile" depends="clean, makedir">
     <javac srcdir="${src.dir}" destdir="${build.dir}">
     	<classpath>
-    	    <path id="org.junit" location="C:\Program Files\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar" /> 
-    		<path id="org.hamcrest.SelfDescribing" location="C:\Program Files\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar" /> 
+    	    <path id="org.junit" location="C:\Users\pacastaneda\Downloads\junit-4.7.jar" /> 
     	</classpath>
     </javac>
   </target>
 	
-	<target name="junit" depends="compile">
+	<target name="junit2" depends="compile">
 		 <junit printsummary="yes" haltonfailure="no">
 		
 		 	<classpath>
- 	    	    <path id="org.junit" location="C:\Program Files\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar" /> 
-		 		<path id="org.hamcrest.SelfDescribing" location="C:\Program Files\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar" /> 
-		 		<pathelement location="src"/>
+ 	    	    <path id="org.junit" location="C:\Users\pacastaneda\Downloads\junit-4.7.jar" />  
 		 		<pathelement location="bin"/>
  	    	</classpath>
 				
-		 	<test name="MyTests" haltonfailure="no" outfile="reports/result">
+		 	<test name="MyTests" haltonfailure="no" outfile="reports">
 		 	      <formatter type="plain"/>
 		 	      <formatter type="xml"/>
 		 	</test>
@@ -57,7 +54,7 @@
                 <include name="**" />
            </fileset>
     	<classpath>
-    	    <path id="org.junit" location="C:\Program Files\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar" /> 
+    	    <path id="org.junit" location="C:\Users\pacastaneda\Downloads\junit-4.7.jar" /> 
     	</classpath>
     </javadoc>
   </target>
